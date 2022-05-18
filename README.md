@@ -13,8 +13,11 @@
 ### Para iniciar localmente:
 `npm start`
 
+### Documentação de API para
+[clique aqui](https://rickandmortyapi.com/)
+
 ### PLayground GraphQL
-`https://rickandmortyapi.com/graphql`
+[clique aqui](https://rickandmortyapi.com/graphql)
 
 ### Professor Douglas Morais
 
