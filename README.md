@@ -11,7 +11,7 @@
 `yarn`
 
 ### Para iniciar localmente:
-`npm start`
+`yarn start`
 
 ### Documentação de API para
 [clique aqui](https://rickandmortyapi.com/)
