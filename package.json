@@ -1,0 +1,57 @@
+{
+  "name": "react-ts-graphql-hiringcoders",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.9",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.19.16",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "graphql": "^15.5.0",
+    "gsap": "^3.6.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-scripts": "4.0.2",
+    "react-spring": "^8.0.27",
+    "react-use-gesture": "^9.0.1",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.1.5",
+    "web-vitals": "^1.1.0",
+    "zustand": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "gql:types": "apollo client:codegen --localSchemaFile=src/gql/schema.json --target=typescript --includes=src/gql/**/*.ts --excludes=src/gql/client/**/*.typeDefs.ts  --tagName=gql  types"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7",
+    "apollo": "^2.32.1"
+  }
+}
