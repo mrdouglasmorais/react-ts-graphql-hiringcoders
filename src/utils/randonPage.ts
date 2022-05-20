@@ -1,1 +1,0 @@
-export const radomPage = Number((Math.random() * 33 + 1).toFixed(0)) 

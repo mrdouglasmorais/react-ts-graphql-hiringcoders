@@ -2,10 +2,10 @@ import create from 'zustand';
 
 type Props = {
   errors: [];
-  updateErros: (newError: []) => void;
-}
+  updateErrors: (newError: []) => void;
+};
 
-export const useErrorStore = create<Props>( (set) => ({
+export const useErrorStore = create<Props>((set) => ({
   errors: [],
-  updateErros: (newError) => set( () => ({ errors: newError }))
-}))
+  updateErrors: (newError) => set(() => ({ errors: newError })),
+}));

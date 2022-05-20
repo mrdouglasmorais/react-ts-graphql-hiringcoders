@@ -1,10 +1,10 @@
-import Cards from './components/cards'
 import './App.css';
+import Cards from './components/cards';
 
-const App = (): JSX.Element => {
+function App() {
   return (
     <div className="App">
-      <Cards />
+      <Cards key={'key'} />
     </div>
   );
 }
